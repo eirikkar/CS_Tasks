@@ -24,4 +24,24 @@ public interface IFundament
     /// <param name="fact">a interesting fact</param>
     /// <returns>a fact of type: string</returns>
     string GetAInterestingFact(string fact);
+
+    /// <summary>
+    /// Prints 10 Fibonacci numbers
+    /// </summary>
+
+    void PrintFibonnaciSeries();
+
+    /// <summary>
+    /// Takes in a string, copies string to char array and reverses it. Returns the char array as new string
+    /// </summary>
+    /// <param name="str"></param>
+    /// <returns>reversed string </returns>
+    string ReverseString(string str);
+
+    /// <summary>
+    /// Uses a recursive function to call itself inside the function to find the fractotial of the param n
+    /// </summary>
+    /// <param name="n"></param>
+    /// <returns>returns the param n * the function with n -1 inside the parm</returns>
+    double RecursiveFactorial(double n);
 }
